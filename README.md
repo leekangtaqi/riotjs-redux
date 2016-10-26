@@ -1,6 +1,6 @@
 # riotjs-redux
 
-connecter for riot to redux
+connecter for riot to redux  (react like).
 
 ##Usage
 ```html
@@ -20,7 +20,7 @@ connecter for riot to redux
     increase: dispatch({type: 'increase', payload: 1})
   })
   
-  connect(mapStateToOpts, mapActionToOpts);
+  connect(mapStateToOpts, mapActionToOpts)(this);
 </foo>
 ```
 
